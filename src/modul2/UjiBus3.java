@@ -12,23 +12,14 @@ package modul2;
 public class UjiBus3 {
 
     public static void main(String[] args) {
-        Latihan4 Bus = new Latihan4(5);
-        Bus.getpenumpang(17);
-        Bus.getpenumpang(24);
-        Bus.cetakpenumpang();
+        Latihan3 siswa = new Latihan3();
+        siswa.setNama("Sulthony Akbar Rizky Pambudi");
+        siswa.setAbsen(38);
+        siswa.setAlamat("Jl. Kapi Anala 1 15 M No.4, Malang");
 
-        Bus.addpenumpang(2);
-        Bus.cetakpenumpang();
-
-        Bus.addpenumpang(1);
-        Bus.cetakpenumpang();
-
-        Bus.addpenumpang(2);
-        Bus.cetakpenumpang();
-
-        Bus.addpenumpang(2);
-        Bus.cetakpenumpang();
+        System.out.println("---------------NAMA SISWA---------------" + "\n" + "\nNama   : "
+                + siswa.getNama() + "\nAbsen  : " + siswa.getAbsen() + "\nAlamat : "
+                + siswa.getAlamat());
 
     }
-
 }

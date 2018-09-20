@@ -9,25 +9,25 @@ package modul2;
  *
  * @author ASUS
  */
-public class UjiBus {
+public class UjiBus1 {
 
     public static void main(String[] args) {
-        Latihan1 busTayo = new Latihan1();
-        busTayo.penumpang = 5;
-        busTayo.maxPenumpang = 15;
-        busTayo.cetak();
+        Latihan1 busMini = new Latihan1();
+        busMini.penumpang = 5;
+        busMini.maxPenumpang = 15;
+        busMini.cetak();
         System.out.println();
 
-        busTayo.penumpang = busTayo.penumpang + 5;
-        busTayo.cetak();
+        busMini.penumpang = busMini.penumpang + 5;
+        busMini.cetak();
         System.out.println();
 
-        busTayo.penumpang = busTayo.penumpang - 2;
-        busTayo.cetak();
+        busMini.penumpang = busMini.penumpang - 2;
+        busMini.cetak();
         System.out.println();
 
-        busTayo.penumpang = busTayo.penumpang + 8;
-        busTayo.cetak();
+        busMini.penumpang = busMini.penumpang + 8;
+        busMini.cetak();
         System.out.println();
     }
 }

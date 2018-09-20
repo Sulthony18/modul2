@@ -9,7 +9,7 @@ package modul2;
  *
  * @author ASUS
  */
-public class Modul2 {
+public class Latihan3 {
 
     private String nama;
     private int absen;
